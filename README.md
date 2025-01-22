@@ -20,25 +20,17 @@ Barone-Adesi Whaley
 Used QuantLib for implementation of classical models.
 Achieved a DQN price of $7.057 for the American option with an early exercise premium of $0.129.
 
+# Key Results
+DQN Pricing:
 
-Installation and Setup
-Clone the repository:
+- Price: $7.057
+- Early Exercise Premium: $0.129
 
-bash
-Copy
-Edit
-git clone https://github.com/vania-munjar/reinforcement-option-pricing.git
-cd reinforcement-option-pricing
-Install dependencies:
+# Classical Models Comparison:
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Run the project:
-
-bash
-Copy
-Edit
-python main.py
+Implemented Black-Scholes, Binomial Tree, and Barone-Adesi Whaley models for validation.
+Future Work
+Extend the DQN model to handle multi-dimensional state spaces for exotic options.
+Explore other reinforcement learning techniques (e.g., PPO, SAC) for improved performance.
+Optimize the Gym environment for faster convergence.
 

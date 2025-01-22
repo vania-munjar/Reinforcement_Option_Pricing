@@ -19,3 +19,26 @@ Binomial Tree
 Barone-Adesi Whaley
 Used QuantLib for implementation of classical models.
 Achieved a DQN price of $7.057 for the American option with an early exercise premium of $0.129.
+
+
+Installation and Setup
+Clone the repository:
+
+bash
+Copy
+Edit
+git clone https://github.com/vania-munjar/reinforcement-option-pricing.git
+cd reinforcement-option-pricing
+Install dependencies:
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
+Run the project:
+
+bash
+Copy
+Edit
+python main.py
+
